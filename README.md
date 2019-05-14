@@ -25,6 +25,13 @@ Creating frontend website using materialize css
   * use materialize method: materialbox() in javascript to make images pop
   * add padding to section using vw units to make padding relative to the screen size
 
+* Adding simple parallax:
+  * add a containing element for the parallax div
+  * add div with class of parallax
+  * add image tag
+  * intialize parallax in javascript using materialize method: parallax()
+  * add content after each parallax to make parallax stand out
+
 
 Acknowledgements:
 
