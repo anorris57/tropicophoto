@@ -40,6 +40,15 @@ Creating frontend website using materialize css
   * create divs containing content. Give each div the appropriate id to from link tabs
   * materialize method: tabs() using jquery to the tabs class.
 
+* Adding forms:
+  * use form tag
+  * each input field in materialize should have its own containing div with a class of input field
+  * labels should be placed below input fields
+  * text area should be given a materialize class of "materialize-textarea"
+  * use class of prefix to make icons come before input fields
+  * use materialize class of datepicker with type text and use materialize method of datepicker() with jquery
+  * use input type="checkbox" to get checkboxes that have animation
+
 Acknowledgements:
 
 [Tropico Photo](http://www.tropicophoto.com/)
