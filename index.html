@@ -34,6 +34,12 @@
       padding-top: 4vw;
       padding-bottom: 4vw;
     }
+    .tabs .indicator{
+      background-color: lightblue;
+    }
+    .tabs .tab a:focus, .tabs .tab a:focus.active{
+      background: transparent;
+    }
       @media screen and (max-width: 670px) {
         header {
           min-height: 500px;
@@ -77,7 +83,7 @@
           <img src="img/IMG_6336_web.jpg" alt="image" class="responsive-img materialboxed">
         </div>
       <div class="col s12 l6 offset-l1">
-        <h2 class="indigo-text text-darken-4">Building Expressions</h2>
+        <h2 class="blue-text text-darken-4">Building Expressions</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
       </div>
       <div class="row">
@@ -85,7 +91,7 @@
             <img src="img/_MG_0039.jpg" alt="" class="responsive-img   materialboxed">
         </div>
         <div class="col s12 l6 offset-l1 pull-l5 right-align">
-          <h2 class="indigo-text text-darken-4">Seascapes</h2>
+          <h2 class="blue-text text-darken-4">Seascapes</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
         </div>
       </div>
@@ -94,7 +100,7 @@
             <img src="img/_MG_0431.jpg" alt="" class="responsive-img materialboxed">
         </div>
         <div class="col s12 l6 offset-l1">
-          <h2 class="indigo-text text-darken-4">Cityscapes</h2>
+          <h2 class="blue-text text-darken-4">Cityscapes</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
         </div>
       </div>
@@ -107,15 +113,42 @@
       </div>
     </div>
 
-    <!--Information-->
-    <div class="container">
-      <h2 class="indigo-text text-darken-4">About</h2>
-      <p>Tropico Photo is the collaborative work of Forrest Aguar and Michelle Norris. The duo met while studying photography at the University of Georgia and have since transplanted to Atlanta, where they live with their dog Taco.</p>
-
-      <p>Forrest loves pairing shapes and lines to create captivating compositions and Michelle loves seeking out compelling color combinations. Together, they make work that draws on the feeling of an ambiguous time and place.</p>
-        
-      <p>Travel and art are their greatest shared loves.</p>
-    </div>
+    <!--Information/sevices/tabs-->
+    <section class="container section" id="services">
+      <div class="row">
+        <div class="col s12 l4">
+          <h2 class="blue-text text-darken-4">Services Available</h2>
+          <p>Custom modern photography using bold colors and imagination.</p>
+        </div>
+        <div class="col s12 l6 offset-12">
+          <ul class="tabs">
+            <li class="tab col s6">
+              <a href="#people" class="blue-text text-darken-4">People</a>
+            </li>
+            <li class="tab col s6">
+              <a href="#creations" class="blue-text text-darken-4">Creations</a>
+            </li>
+          </ul>
+          <div class="col s12" id="people">
+            <p class="flow-text blue-text text-darken-4">
+              People
+            </p>
+            <p><a href="img/fashion.jpg" target="_blank">Fashion</a> for the modern person.</p>
+            <p><a href="img/kids.jpg" target="_blank">Kids</a> that make you smile</p>
+            <p><a href="img/portraiture.jpg" target="_blank">Portraiture</a> to remember.</p>
+          </div>
+          <div class="col s12" id="creations">
+            <p class="flow-text blue-text text-darken-4">
+              Creations
+            </p>
+            <p><a href="img/stillLife.jpg" target="_blank">Still Lifes</a> for comtemplation. for the modern person.</p>
+            <p><a href="img/travel.jpg" target="_blank">Travel</a> that makes you want to move.</p>
+            <p><a href="img/food_drink.jpg" target="_blank">Food and Drink</a> to celebrate.</p>
+            <p><a href="img/fine_art.jpg" target="_blank">Fine Art</a> to appreciate.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- parallax -->
     <div class="parallax-container">
@@ -147,6 +180,7 @@
         $('.sidenav').sidenav();
       $('.materialboxed').materialbox();
       $('.parallax').parallax();
+      $('.tabs').tabs();
       });
     </script>
   </body>

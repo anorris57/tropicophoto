@@ -32,6 +32,13 @@ Creating frontend website using materialize css
   * intialize parallax in javascript using materialize method: parallax()
   * add content after each parallax to make parallax stand out
 
+* Adding tabs:
+  * creating a section with class of section to get styling that matches rest of document.
+  * set up grid for mobile responsiveness
+  * create ul with class of tabs
+  * create li that contains Link tags that href's that are set equal to the id of the content to be shown when clicked.
+  * create divs containing content. Give each div the appropriate id to from link tabs
+  * materialize method: tabs() using jquery to the tabs class.
 
 Acknowledgements:
 
