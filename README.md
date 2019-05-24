@@ -49,6 +49,9 @@ Creating frontend website using materialize css
   * use materialize class of datepicker with type text and use materialize method of datepicker() with jquery
   * use input type="checkbox" to get checkboxes that have animation
 
+* Adding footer:
+  * Use materialize class of page-footer to add styling
+
 Acknowledgements:
 
 [Tropico Photo](http://www.tropicophoto.com/)
