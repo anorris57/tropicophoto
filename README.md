@@ -52,6 +52,11 @@ Creating frontend website using materialize css
 * Adding footer:
   * Use materialize class of page-footer to add styling
 
+* Adding Scrollspy
+  * Scrollspy is used to instead of just bookmarking the page with id's (this cause the page to jump) so that the page scrolls to the selected area. This allows the viewer to see the beauty of parellex in action.
+  * Add class of scrollspy to appropriate div/section of associated id.
+  * Use jquery to add materialize method of scrollSpy.
+
 Acknowledgements:
 
 [Tropico Photo](http://www.tropicophoto.com/)
